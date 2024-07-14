@@ -190,6 +190,7 @@ dependencies = [
  "anchor-lang",
  "anchor-spl",
  "solana-program",
+ "solana-readonly-account",
 ]
 
 [[package]]
@@ -1934,6 +1935,15 @@ dependencies = [
  "tiny-bip39",
  "wasm-bindgen",
  "zeroize",
+]
+
+[[package]]
+name = "solana-readonly-account"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "99be70d49c64512faca7d6cdd4d33a5fbef2e5d19eafb49478f7e2c84d091973"
+dependencies = [
+ "solana-program",
 ]
 
 [[package]]

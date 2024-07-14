@@ -22,3 +22,4 @@ anchor-spl = "0.30.0"
 solana-program = "1.18.13"
 # Solana dependency tree fixes
 ahash = "=0.8.11"
+solana-readonly-account = "1.2.0"
